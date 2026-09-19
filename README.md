@@ -26,7 +26,7 @@ Open the deployed site on a phone browser (`/app`):
 ### Step 1 — Train in Colab
 1. Upload `Road_Damage_Detection_Colab.ipynb` to https://colab.research.google.com
 2. Runtime → Change runtime type → GPU (T4)
-3. Get the RDD2022 dataset (India subset recommended for real-world relevance): https://github.com/sekilab/RoadDamageDetector
+3. Get the RDD2022 dataset (India subset recommended for real-world relevance): 
    - Easiest: search "RDD2022 YOLO" on Roboflow Universe for a pre-converted version
 4. Run all cells. Training ~30-60 min for 50 epochs on yolov8n with T4 GPU.
 5. Download `best.pt` at the end (last cell does this automatically).
